@@ -1,0 +1,9 @@
+services:
+  cold-caller-api:
+    build: .
+    container_name: appointment-setter-cold-caller
+    env_file:
+      - .env
+    ports:
+      - "8010:8010"
+    restart: unless-stopped

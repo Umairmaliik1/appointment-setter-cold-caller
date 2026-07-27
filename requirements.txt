@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+email-validator
+firebase-admin
+redis
+httpx
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==4.3.0
+twilio
+boto3
+pydantic-settings
+cryptography
